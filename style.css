@@ -54,6 +54,7 @@ body{
 }
 #reset_btn:hover,#new_game_btn:hover{
     background-color:transparent;
+    user-select: none;
     background:linear-gradient(135deg,aqua,rgb(87, 87, 185)) ;
 }
 .win-container{
