@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background:linear-gradient(135deg,rgb(87, 87, 185),aqua) no-repeat;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.game{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 30%;
+    height: 14vmin;
+    border-radius: 10px;
+    background-color: rgb(14, 16, 33);
+    box-shadow: 0 0 10px #222222;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    user-select: none;
+}
+#reset_btn,#new_game_btn{
+    padding:1em 6em;
+    background:linear-gradient(135deg,rgb(87, 87, 185),aqua) ;
+    color: white;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    margin: auto;
+    border: none;
+    display: block;
+    transition: all 0.1s linear;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.212);
+}
+#reset_btn:hover,#new_game_btn:hover{
+    background-color:transparent;
+    background:linear-gradient(135deg,aqua,rgb(87, 87, 185)) ;
+}
+.win-container{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.win-msg{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+.hide{
+    display: none;
+}
