@@ -50,6 +50,7 @@ body{
     transition: all 0.1s linear;
     cursor: pointer;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.212);
+    user-select: none;
 }
 #reset_btn:hover,#new_game_btn:hover{
     background-color:transparent;
@@ -64,6 +65,7 @@ body{
     margin-bottom: 10px;
     color: white;
     font-size: 50px;
+    user-select: none;
 }
 .hide{
     display: none;
